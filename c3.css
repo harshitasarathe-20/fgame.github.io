@@ -1,0 +1,414 @@
+ body {
+            background-image: linear-gradient(to right, #43c6ac, #f8ffae);
+            background-color: lightseagreen;
+        }
+  div.example {
+      
+      padding: 20px;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .bnn {
+        background-color: black;
+        color: white;
+        border: double 2px whitesmoke;
+        border-radius: 3px;
+        margin-top: 15%;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+     .back {
+         text-align: center;
+     }
+
+   
+    .w3-col.s6 {
+        border: 2px double black;
+        padding: 5px;
+    }
+
+    .name {
+        text-align: center;
+        background-color: teal;
+        padding: 2px;
+        border: 2px double black;
+        
+    }
+
+    .w3-image {
+
+        padding: 4px;
+        visibility: hidden;
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 30;
+        width: 34;
+    }
+
+
+    .w3-xlarge {
+        font-size: 20px;
+    }
+
+    .w3-button {
+        
+        background-color: black;
+        color: white;
+        border-radius: 8px;
+        border: 2px double white;
+        display: inline-block;
+        padding: 0px 8px;
+        vertical-align: middle;
+        overflow: hidden;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        white-space: nowrap;
+        margin: 0;
+        text-transform: none;
+        -webkit-appearance: button;
+    }
+
+    .tb {
+        height: 1.8rem;
+        width: 1.8rem;
+        padding: 6px;
+    }
+
+
+    .fa {
+        font-size: 1.5rem;
+        padding: 7px;
+        margin: -3px;
+    }
+    
+
+
+     .circle {
+  
+             visibility: hidden;
+             background: black;
+             border-radius: 100%;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left: 12px;
+             background: radial-gradient(circle at 50% 120%,rgba(16, 11, 63, 0.397),  rgb(9, 150, 197) 80%, #063e6b 100%);
+            }
+        .circleO {
+  
+             visibility: visible;
+             background: black;
+             border-radius: 100%;
+             border-color: solid 5px black;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left:12px;
+             background: radial-gradient(circle at 50% 120%, #333333,  #ffffff 80%, #333333 100%);
+            }
+
+            .circleR {
+  
+             visibility: hidden;
+             background: black;
+             border-radius: 100%;
+             border-color: solid 5px black;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left: 12px;
+             background: radial-gradient(circle at 50% 120%, #86840b, rgba(255, 255, 0, 0.829) 80%, #b8bb1a 100%);
+            }
+
+
+
+            .circleG {
+  
+             visibility: hidden;
+             background: black;
+             border-radius: 100%;
+             border-color: solid 5px black;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left: 12px;
+             background: radial-gradient(circle at 50% 120%, #333333, #808080 80%, #333333 100%);
+            }
+
+            .btns {
+        height: 2rem;
+        width: 5rem;
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+        border: 2px double white;
+        font-size: 1rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+      
+   
+   
+                            /*************************MERA PHONE****************************/
+     @media screen and (min-width:320px) and (max-width: 390px) {
+
+    .example {
+        font-size: 25px;
+        padding: 4px;
+       
+      }
+
+      .name {
+          font-size: 80%;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      button.w3.w3-button.w3-large {
+          height: 1.8rem;
+          width: 1.8rem;
+          padding: 0%;
+          margin-top: 1%;
+          margin-bottom: 0%;
+      }
+       .back {
+        margin-top: 18%;
+    }
+
+      .triangle-up {
+          margin-left: 47%;
+         
+    }
+    .rectangle {
+        margin-left: 18%;
+    }
+
+    .row-2{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+
+    }
+
+    .row-0 {
+        margin-bottom: 0%;
+    }
+    .row-3 {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 6%;
+    }
+
+     .row-1{
+        margin-top: 12%;
+    }
+    .row--1{
+        margin-top: 15%;
+    }
+    #no{
+        margin-left: 4px;
+    }
+
+
+    .fa-plus {
+       margin-left: 0%; 
+    }
+
+    #num {
+        margin-left: 3%;
+    }
+
+    .mol-1 {
+        margin-left: 54px;
+    }
+
+    #w1 {
+        margin-left: 25px;
+    }
+
+    .mol-2 {
+        margin-left: 59px;
+    }
+
+    #w2 {
+        margin-left: 22px;
+    }
+    #hyd33 {
+        margin-left: 19px;
+    }
+
+    #w3 {
+        margin-left: 23px;
+    }
+
+    #oxy3 {
+        margin-left: 20px;
+    }
+    #hyd222 {
+        margin-left: 17px;
+    }
+    .mol-3{
+        margin-left: 133px;
+    }
+    
+    #w111 {
+        margin-left: 24px;
+    }
+
+    #w222 {
+        margin-left: 23px;
+    }
+
+   
+    #w333 {
+        margin-left: 23px;
+    }
+
+    
+    
+    }
+
+    
+
+                                         /*****************SID N SANIDHYA KA PHONE***********************/
+
+    @media screen and (min-width:391px) and (max-width: 480px) {
+      div.example {
+        font-size: 30px;
+      }
+
+      .name {
+          font-size: 13px ;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      #num {
+          margin-left: 3px;
+      }
+
+      .w3-button {
+          height: 1.8rem;
+          width: 1.8rem;
+          padding: 0px 0px;
+          margin-top: 2%;
+          margin-bottom: 1%;
+      }
+      .bnn{
+          margin-top: 30%;
+      }
+
+      .fa {
+          margin-left: 8px;
+          font-size: 1.5rem;
+          padding: 7px;
+          margin: 0px;
+
+        }
+        .row-2 {
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 9%;
+        }
+        .row-3 {
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 8%;
+        }
+
+        .row-0 {
+            margin-top: 0%;
+            margin-bottom: 9%;
+        }
+
+        .row--1 {
+            margin-left: -20px;
+            margin-top: 55px;
+        }
+
+        .rectangle {
+            margin-left: 22%;
+        }
+
+        .triangle-up {
+            margin-left: 47%;
+        }
+
+     .mol-1 {
+         margin-left: 101px;
+     }   
+        #w1 {
+        margin-left: 25px;
+    }
+
+    .mol-2 {
+        margin-left: 106px;
+    }
+
+    #w2 {
+        margin-left: 22px;
+    }
+   
+    #w3 {
+        margin-left: 23px;
+    }
+    #hyd3 {
+        margin-left: 18px;
+    }
+    #hyd222 {
+        margin-left: 19px;
+    }
+    #hyd33 {
+        margin-left: 18px;
+    }
+
+    #oxy3 {
+        margin-left: 18px;
+    }
+    
+    #w111 {
+        margin-left: 26px;
+    }
+
+    #w222 {
+        margin-left: 21px;
+    }
+    .mol-3 {
+        margin-left: 172px;
+    }
+
+   
+    #w333 {
+        margin-left: 22px;
+    }
+
+    
+    }
+
+
+    .rectangle {
+    height: 4px;
+     width: 218px; 
+     background-color: black;
+     border: double 1px white;
+     
+      
+      
+}
+.triangle-up {
+    width: 0; 
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent; 
+    border-bottom: 20px solid black;
+    text-align: center;
+    color:black;
+    
+  
+   
+}
+
+                        /****************************LANDSCAPE*******************************/
+
+
+
+
+  

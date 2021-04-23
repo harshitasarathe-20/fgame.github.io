@@ -1,0 +1,575 @@
+ body {
+            background-image: linear-gradient(to right, #43c6ac, #f8ffae);
+            background-color: lightseagreen;
+        }
+
+     .back {
+         text-align: center;
+     }   
+  div.example {
+      
+      padding: 20px;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .bnn {
+        background-color: black;
+        color: white;
+        border: double 2px whitesmoke;
+        border-radius: 3px;
+        margin-top: 9%;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .row--1{
+        margin-top: 8%;
+    }
+
+   
+    .w3-col.s6 {
+        border: 2px double black;
+        padding: 5px;
+    }
+
+    .name {
+        text-align: center;
+        background-color: teal;
+        padding: 2px;
+        border: 2px double black;
+        
+    }
+
+    .w3-image {
+
+        padding: 4px;
+        visibility: hidden;
+        margin-left: 0%;
+        margin-right: 0%;
+        height: 30;
+        width: 34;
+    }
+
+
+    .w3-xlarge {
+        font-size: 20px;
+    }
+
+    .w3-button {
+        
+        background-color: black;
+        color: white;
+        border-radius: 8px;
+        border: 2px double white;
+        display: inline-block;
+        padding: 0px 8px;
+        vertical-align: middle;
+        overflow: hidden;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        white-space: nowrap;
+        margin: 0;
+        text-transform: none;
+        -webkit-appearance: button;
+    }
+
+    .tb {
+        height: 1.8rem;
+        width: 1.8rem;
+        padding: 6px;
+    }
+
+
+    .fa {
+        font-size: 1.5rem;
+        padding: 7px;
+        margin: -3px;
+    }
+    
+
+
+     .circlegn {
+  
+             visibility: hidden;
+             background: black;
+             border-radius: 100%;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left: 12px;
+             background: radial-gradient(circle at 50% 120%,Lime,  #29a329 80%, #009900 100%);
+            }
+
+             .circleB {
+  
+             visibility: hidden;
+             background: black;
+             border-radius: 100%;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left: 12px;
+             background: radial-gradient(circle at 50% 120%,rgb(19, 156, 180) 10%,  #03f0f8 70%, #0d879c 100%);
+            }
+        .circleO {
+  
+             visibility:hidden;
+             background: black;
+             border-radius: 100%;
+             border-color: solid 5px black;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left:12px;
+             background: radial-gradient(circle at 50% 120%, #333333,  #ffffff 80%, #333333 100%);
+            }
+
+             .circleAl {
+  
+             visibility: hidden;
+             background: black;
+             border-radius: 100%;
+             border-color: solid 5px black;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left:12px;
+             background: radial-gradient(circle at 50% 120%, #a88d32,  #ddc852 80%, #88844a 100%);
+            }
+
+
+             .circleY {
+  
+             visibility: hidden;
+             background: black;
+             border-radius: 100%;
+             border-color: solid 5px black;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left: 12px;
+             background: radial-gradient(circle at 50% 120%, #86840b, rgba(255, 255, 0, 0.829) 80%, #b8bb1a 100%);
+            }
+
+
+            .circleR {
+  
+             visibility: hidden;
+             background: black;
+             border-radius: 100%;
+             border-color: solid 5px black;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left: 12px;
+            background: radial-gradient(circle at 60% 120%, #ffff00 30%, #ff0000 80%, #c02f15 100%);
+            }
+
+             .circleRed {
+  
+             visibility: hidden;
+             background: black;
+             border-radius: 100%;
+             border-color: solid 5px black;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left: 12px;
+            background: radial-gradient(circle at 60% 120%, #7a0606 30%, #ff0000 80%, #c02f15 100%);
+            }
+             .circleC {
+  
+             visibility: hidden;
+             background: black;
+             border-radius: 100%;
+             border-color: solid 5px black;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left: 12px;
+            background: radial-gradient(circle at 60% 120%, #ff0000 10%, #ff0000 60%, #000000 60%);
+            }
+
+
+            
+             .circlePink {
+  
+             visibility: hidden;
+             background: black;
+             border-radius: 100%;
+             border-color: solid 5px black;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left: 12px;
+            background: radial-gradient(circle at 60% 120%, #cc005f 10%, #f85ec5 60%, #f50cce 100%);
+            }
+
+            
+             .circleN {
+  
+             visibility: hidden;
+             background: black;
+             border-radius: 100%;
+             border-color: solid 5px black;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left: 12px;
+            background: radial-gradient(circle at 60% 120%, #ff0000 10%, #ff0000 60%, #1336d3 60%);
+            }
+
+            .circleP {
+  
+             visibility: hidden ;
+             background: black;
+             border-radius: 100%;
+             border-color: solid 5px black;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left: 12px;
+             background: radial-gradient(circle at 50% 120%, #890c99, rgba(212, 0, 255, 0.829) 80%, #580970 100%);
+            }
+
+
+
+            .circleG {
+  
+             visibility: hidden;
+             background: black;
+             border-radius: 100%;
+             border-color: solid 5px black;
+             height: 12px;
+             width: 12px;
+             margin: 0;
+             margin-left: 12px;
+             background: radial-gradient(circle at 50% 120%, #867e7e, #808080 80%, #333333 100%);
+            }
+
+            .btns {
+        height: 2rem;
+        width: 5rem;
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+        border: 2px double white;
+        font-size: 1rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+      
+   
+   
+                            /*************************MERA PHONE****************************/
+     @media screen and (min-width:320px) and (max-width: 390px) {
+
+    .example {
+        font-size: 25px;
+        padding: 4px;
+       
+      }
+
+      .name {
+          font-size: 80%;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      button.w3.w3-button.w3-large {
+          height: 1.8rem;
+          width: 1.8rem;
+          padding: 0%;
+          margin-top: 1%;
+          margin-bottom: 0%;
+      }
+
+      .triangle-up {
+          margin-left: 47%;
+         
+    }
+
+    .back{
+        margin-top: 18%;
+    }
+    .rectangle {
+        margin-left: 18%;
+    }
+
+    .row-2{
+        margin-left: 8%;
+        margin-right: 9%;
+        margin-top: 5%;
+
+    }
+
+    .row-0 {
+        margin-bottom: 5%;
+    }
+    .row-3 {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 6%;
+    }
+
+    .fa-plus {
+       margin-left: 0%; 
+    }
+
+    #num {
+        margin-left: 29%;
+    }
+
+    .mol-1 {
+        margin-left: 58px;
+    }
+
+    #c1 {
+        margin-left: 42px;
+    }
+    #b2{
+        margin-left: 17px;
+    }
+
+    .mol-2 {
+        margin-left: 47px;
+    }
+    #b111{
+        margin-left: 29px;
+    }
+    #b222{
+        margin-left: 30px;
+    }
+
+    #a222{
+        margin-left: 24px;
+    }
+
+
+    #a3 {
+        margin-left: 12px;
+    }
+
+    #b3 {
+        margin-left: 16px;
+    }
+
+    #c111 {
+        margin-left: 54px;
+    }
+
+    #d111 {
+        margin-left: 24px;
+    }
+     #c222 {
+        margin-left: 23px;
+    }
+    #d222 {
+        margin-left: 24px;
+    }
+    
+    
+    #d3 {
+        margin-left: 130px;
+    }
+
+    #c3 {
+        margin-left: 36px;
+    }
+
+    .mol-3{
+        margin-left: 62px;
+    }
+
+    #x1 {
+        margin-left: 35px;
+    }
+
+    .mol-4 {
+        margin-left: 67px;
+    }
+
+    #c333 {
+        margin-left: 47px;
+    }
+    #b333{
+        margin-left: 27px;
+    }
+    #d333{
+        margin-left: 131px ;
+    }
+    
+    
+    }
+
+    
+
+                                         /*****************SID N SANIDHYA KA PHONE***********************/
+
+    @media screen and (min-width:391px) and (max-width: 480px) {
+      div.example {
+        font-size: 30px;
+      }
+
+      .name {
+          font-size: 13px ;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+
+      #num {
+          margin-left: 80px;
+      }
+
+      .w3-button {
+          height: 1.8rem;
+          width: 1.8rem;
+          padding: 0px 0px;
+          margin-top: 2%;
+          margin-bottom: 1%;
+      }
+      .bnn{
+          margin-top: 23%;
+      }
+
+      .fa {
+          margin-left: 8px;
+          font-size: 1.5rem;
+          padding: 7px;
+          margin: 0px;
+
+        }
+        .row-2 {
+            margin-left: 13%;
+            margin-right: 13%;
+            margin-top: 9%;
+        }
+        .row-3 {
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 9%;
+        }
+
+        .row-0 {
+            margin-top: 0%;
+            margin-bottom: 3%;
+        }
+        #no{
+            margin-left: -5.2px;
+        }
+        #numb{
+            margin-left: -3px;
+        }
+
+        .row--1 {
+            margin-left: -20px;
+        }
+
+        .rectangle {
+            margin-left: 22%;
+        }
+
+        .triangle-up {
+            margin-left: 47%;
+        }
+
+        .mol-1 {
+            margin-left: 100px;
+
+        }
+
+          #c1 {
+        margin-left: 48px;
+    }
+
+    #b2{
+        margin-left: 15px;
+    }
+    .mol-2 {
+        margin-left: 83px;
+    }
+    #b3{
+        margin-left: 15px;
+    }
+    #a3{
+        margin-left: 25px;
+    }
+    #c111 {
+        margin-left: 59px;
+    }
+
+    #d111 {
+        margin-left: 24px;
+    }
+    #a222{
+        margin-left: 24px;
+    }
+    #b111{
+        margin-left: 34px;
+    }
+    #b222{
+        margin-left: 28px;
+    }
+
+    #d222 {
+        margin-left: 22px;
+    }
+    #c222{
+        margin-left: 25px;
+    }
+    
+    #d3 {
+        margin-left: 146px;
+    }
+
+    #c3 {
+        margin-left: 34px;
+    }
+
+    .mol-3{
+        margin-left: 92px;
+    }
+
+    #b333 {
+        margin-left: 27px;
+    }
+
+    .mol-4 {
+        margin-left: 115px;
+    }
+
+    #c333 {
+        margin-left: 46px;
+    }
+    #d333{
+        margin-left: 128px;
+    }
+    
+    }
+
+
+    .rectangle {
+    height: 4px;
+     width: 218px; 
+     background-color: black;
+     border: double 1px white;
+     
+      
+      
+}
+.triangle-up {
+    width: 0; 
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent; 
+    border-bottom: 20px solid black;
+    text-align: center;
+    color:black;
+    
+  
+   
+}
+
+                        /****************************LANDSCAPE*******************************/
+
+
+
+
+  

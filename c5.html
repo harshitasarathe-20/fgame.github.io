@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="c5.css" type="text/css">
+    <link rel="stylesheet" media="screen and (min-width: 480px)  and (max-width: 700px)  and (orientation: landscape)"
+        href="or.css" type="text/css">
+
+    <script src="c5.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+
+    <div class="example">Combination Reaction</div>
+
+    <div class="w3-container">
+
+        <!-------------------------------------------------------------------------MOLECULES---------------------------------------------------------------------------------------->
+        <div class="w3-row row--1">
+            <div class="molecules" id="molecules">
+                <!-----------------------------------------------------------------------LINE4------------------------------------------------------------------------->
+
+                <!-----------------------------------------------------------------------LINE3------------------------------------------------------------------------->
+
+                <!----------------------------------------------------------------------LINE2--------------------------------------------------------------------------------->
+                <div class="mol-2">
+                    
+                            <div class="circleR" id="oxy3">
+                                <div class="circleR" id="oxy33">
+
+                               
+                        </div>
+                    </div>
+                </div>
+                <!-----------------------------------------------------------------------LINE1------------------------------------------------------------------------------->
+                <div class="mol-1">
+                    <div class="circleR" id="oxy1">
+                        <div class="circleR" id="oxy11">
+
+                            <div class="circleY" id="hyd1">
+                                <div class="circleY" id="hyd11">
+
+                                    <div class="circleR" id="oxy2">
+                                        <div class="circleR" id="oxy22">
+
+                                            <div class="circleY" id="hyd2">
+                                                
+
+                                                    <div class="circleY" id="w1">
+                                                        <div class="circleR" id="w11">
+
+                                                            <div class="circleY" id="w2">
+                                                                <div class="circleR" id="w22">
+
+                                                                    <div class="circleY" id="w3">
+                                                                        <div class="circleR" id="w33">
+
+
+                                                                        <
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row row-0">
+
+            <div class="w3-center">
+                <div id="line" class="rectangle">
+
+                </div>
+                <div class="triangle-up">
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="w3-row row-1">
+            <div class="w3-col l6 s6 w3-green w3-center" style="background-color: white !important;">
+                <div class="name">
+                    Reactants
+                </div>
+
+                <div style="padding: 0px;">
+                    <img src="https://i.ibb.co/hVfpzNM/mg.png" alt="mg"  id="h1" class="w3-image" width="28" height="34">
+                    <img src="https://i.ibb.co/tJ7w94X/o2m.png" alt="o2m"   id="o1" class="w3-image"
+                        width="28" height="34">
+                </div>
+                <div style="padding: 0px;">
+                    <img src="https://i.ibb.co/hVfpzNM/mg.png" alt="mg"  id="h2" class="w3-image" width="28" height="34">
+                    <img src="https://i.ibb.co/tJ7w94X/o2m.png" alt="o2m"  id="o2" class="w3-image"
+                        width="28" height="34">
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/hVfpzNM/mg.png" alt="mg"  id="h3" class="w3-image" width="28" height="34">
+                    <img src="https://i.ibb.co/tJ7w94X/o2m.png" alt="o2m"  id="o3" class="w3-image"
+                        width="28" height="34">
+                </div>
+
+
+
+            </div>
+
+
+            <div class="w3-col l6 s6 w3-dark-grey w3-center" style="background-color: white !important;">
+
+                <div class="name">
+                    Products
+                </div>
+
+                <div style="padding: 2px;">
+                    <img src="https://i.ibb.co/Nyb00gR/mgo.png" alt="mgo"   id="m1" class="w3-image" width="30"
+                        height="34">
+
+                </div>
+                <div style="padding: 1px;">
+                    <img src="https://i.ibb.co/Nyb00gR/mgo.png" alt="mgo" id="m2" class="w3-image" width="30"
+                        height="34">
+
+                </div>
+                <div>
+                    <img src="https://i.ibb.co/Nyb00gR/mgo.png" alt="mgo" id="m3" class="w3-image" width="30"
+                        height="34">
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="w3-row row-2">
+            <div>
+                <span>
+                    <button class="w3 w3-button w3-large" onclick="increaseValue1()" value="Increase Value">+</button>
+                </span>
+                <span>
+                    <button class="w3 w3-button w3-large" style="margin-left: 15%;" onclick="increaseValue2()"
+                        value="Increase Value">+</button>
+                </span>
+                <span>
+                    <button class="w3 w3-button w3-large" style="margin-left: 25%;" onclick="increaseValue3()"
+                        value="Increase Value">+</button>
+                </span>
+
+            </div>
+            <div class="textbox">
+                <span>
+                    <input type="text" class="tb" id="number" value="0">
+                </span>
+
+                <span>
+                    <i class="fa fa-plus"></i>
+                </span>
+                <span>
+                    <input type="text" class="tb" id="num" value="0">
+                </span>
+
+                <span style="margin-left: 6%; margin-right: 6%;">
+                    <i class="fa fa-arrow-right"></i>
+                </span>
+                <span>
+                    <input type="text" class="tb" id="no" value="0">
+                </span>
+
+
+
+            </div>
+            <div class="negative">
+                <span>
+                    <button class="w3 w3-button w3-large" onclick="decreaseValue1()" value="Decrease Value">-</button>
+                </span>
+                <span>
+                    <button class="w3 w3-button w3-large" style="margin-left: 15%;" onclick="decreaseValue2()"
+                        value="Decrease Value">-</button>
+                </span>
+                <span>
+                    <button class="w3 w3-button w3-large" style="margin-left: 25%;" onclick="decreaseValue3()"
+                        value="Decrease Value">-</button>
+                </span>
+
+            </div>
+            <div class="txt">
+                <span id="p-1" style="margin-left: 2%; font-family: Georgia, 'Times New Roman', Times, serif;">
+                    Mg<sub></sub>
+                </span>
+                <span class="p-2" style="margin-left: 17%; font-family: Georgia, 'Times New Roman', Times, serif;">
+                    O<sub>2</sub>
+                </span>
+                <span id="p-3" style=" margin-left: 27%; font-family: Georgia, 'Times New Roman' , Times, serif;">
+                    Mg<sub></sub>O
+                </span>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+        <!---------------------------------->
+        <div class=" w3-row row-3">
+            <div>
+                <button type="reset" class="btns" onclick="location.reload()">Reset</button>
+                <a href="gamecon.html">
+                <button class="btns" id="nxt" style="margin-left: 10%; visibility: hidden;">Next</button></a>
+                <button type="submit"  class="btns" onclick="submit()" style="margin-left: 10%;">Submit</button>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="back">
+            <a href="gamecon.html">
+            <button href="gamecon.html" class="bnn"> Back to Index</button></a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

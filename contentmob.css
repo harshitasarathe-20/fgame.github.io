@@ -1,0 +1,61 @@
+ body {
+            background-image: url('ch.jpg');
+            background-color: lightseagreen;
+        }
+
+nav{
+    position: relative;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.3),0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#navbar{
+    background-color: #19547b;
+    height: 10%;
+    padding: 10px;
+    background-image: linear-gradient(to right, #945116 , #000000 ) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+a {
+    color: white;
+    font-size: 16px;
+    
+    
+}
+
+
+.navbar-bar img{
+    width: 60px;
+    border: double 5px #000000 ;
+    background-color: whitesmoke ;
+    
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.thumbnail {
+    border:4px double black;
+     background-color: white;
+}
+
+
+.caption {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+ 
+}
+
+h2 {
+ font-size: 21px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.txt {
+    text-align: center;
+    color: white;
+}
