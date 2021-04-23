@@ -305,7 +305,7 @@
       }
 
       #num {
-          margin-left: 3px;
+          margin-left: 4px;
       }
 
       .w3-button {
@@ -345,10 +345,10 @@
             margin-bottom: 3%;
         }
         #no{
-            margin-left: -5.2px;
+            margin-left: -5px;
         }
         #numb{
-            margin-left: -3px;
+            margin-left: -1px;
         }
 
         .row--1 {
