@@ -467,7 +467,12 @@
 
         .row--1 {
             margin-left: -20px;
+            margin-top: 26%;
         }
+     
+        .row-1 {
+          margin-top:9%;
+         }
 
         .rectangle {
             margin-left: 22%;
