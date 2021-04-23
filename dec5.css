@@ -17,7 +17,7 @@
         color: white;
         border: double 2px whitesmoke;
         border-radius: 3px;
-        margin-top: 9%;
+        margin-top: 15%;
         font-size: 15px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
@@ -312,6 +312,13 @@
         margin-right: 9%;
         margin-top: 5%;
 
+    }
+      
+       .row-1{
+        margin-top: 12%;
+    }
+    .row--1{
+        margin-top: 15%;
     }
 
     .row-0 {
