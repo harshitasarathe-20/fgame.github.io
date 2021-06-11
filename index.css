@@ -55,7 +55,9 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-
+	::before {
+		color: black;
+}
 /* Containers */
 
 	.container {
@@ -1802,7 +1804,7 @@
 	}
 
 	hr {
-		border-bottom-color: #e5474b;
+		border-bottom-color: grey;
 	}
 
 /* Box */
@@ -1832,7 +1834,7 @@
 
 /* Button */
 
-	input[type="submit"],
+	input[type="buttonss"],
 	input[type="reset"],
 	input[type="button"],
 	button,
@@ -1926,7 +1928,7 @@
 			opacity: 0.25;
 		}
 
-	input[type="submit"],
+	input[type="buttonss"],
 	input[type="reset"],
 	input[type="button"],
 	button,
