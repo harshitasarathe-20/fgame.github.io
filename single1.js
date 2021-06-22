@@ -440,7 +440,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Zinc(Zn) plays an important role in the proper functioning of the immune system.It is an ionic compound, zinc chloride is used as a soldering flux / cleaning agent.Zinc chloride(ZnCl2) is highly corrosive if ingested and is also a strong irritant if inhaled.",
+        text: "Zinc Chloride(ZnCl2) is an ionic salt essential for the synthesis of cholesterol, protein, and fats whereas Hydrogen(H2) is used by  various industries for refining petroleum, treating metals, producing fertilizer, and processing foods.",
         icon: "correct.jpg",
         button: "OK",
     });
