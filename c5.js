@@ -344,7 +344,7 @@ function decreaseValue3() {
 function right() {
     swal({
         title: "Good Job!",
-        text: " Magnesium oxide is used for relief of heartburn and dyspepsia, as an antacid, magnesium supplement, and as a short-term laxative. It is also used to improve symptoms of indigestion.It is also used as an insulator in heat-resistant electrical cable",
+        text: " Magnesium oxide(MgO) is used for relief of heartburn and dyspepsia, as an antacid, magnesium supplement, and as a short-term laxative. It is also used to improve symptoms of indigestion.It is also used as an insulator in heat-resistant electrical cable.",
         icon: "correct.jpg",
         button: "OK",
     });
