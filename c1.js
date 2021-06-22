@@ -350,7 +350,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "NH3(Ammonia) is used as Agricultural Fertilizer,Degreaser,For cleaning electric oven, Sparkling mirrors and windows.",
         icon: "correct.jpg",
         button: "OK",
     });
