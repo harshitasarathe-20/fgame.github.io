@@ -356,7 +356,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Sulfur trioxide, is a colorless to white crystalline solid which will fume in air. It is used in the production of sulfuric acid and other chemicals, and explosives.",
+        text: "Sulfur trioxide(SO3), is a colorless to white crystalline solid which will fume in air.It is also called sulphine acid, battery acid, and hy drogen sulfate. It is used in the production of sulfuric acid and other chemicals, and explosives.",
         icon: "correct.jpg",
         button: "OK",
     });
