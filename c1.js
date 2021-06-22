@@ -350,7 +350,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "(Ammonia(NH3) is gas at room temperature and used as Agricultural Fertilizer,Degreaser,For cleaning electric oven, Sparkling mirrors and windows.",
+        text: "Ammonia(NH3)  is a nutritious, inorganic nitrogen compound that is found naturally in the air, soil, water and living tissuesand it is gas at room temperature and used as Agricultural Fertilizer,Degreaser,For cleaning electric oven, Sparkling mirrors and windows.",
         icon: "correct.jpg",
         button: "OK",
     });
