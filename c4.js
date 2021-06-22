@@ -374,7 +374,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "Ammonium chloride, the salt of ammonia and hydrogen chloride which also known as sal ammoniac.It is used in fertilizer, medecines, Lechlanche cells, food additives,cooling agent.",
         icon: "correct.jpg",
         button: "OK",
     });
