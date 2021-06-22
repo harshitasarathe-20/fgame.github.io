@@ -2,6 +2,10 @@
             background-image: linear-gradient(to right, #43c6ac, #f8ffae);
             background-color: lightseagreen;
         }
+ .swal-modal .swal-text {
+        text-align: center;
+    }
+
   div.example {
       
       padding: 20px;
