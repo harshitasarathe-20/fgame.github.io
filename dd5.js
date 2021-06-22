@@ -470,7 +470,7 @@ function decreaseValue4() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "Aluminium Nitrate [Al(NO3)3] is a strong oxidizing agent. It is used in tanning leather, antiperspirants, corrosion inhibitors, extraction of uranium, petroleum refining, and as a nitrating agent. Potassium chloride (KCl) is used to prevent or to treat low blood levels of potassium.",
         icon: "correct.jpg",
         button: "OK",
     });
