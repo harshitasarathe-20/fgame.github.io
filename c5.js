@@ -344,7 +344,7 @@ function decreaseValue3() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: " Magnesium oxide is used for relief of heartburn and dyspepsia, as an antacid, magnesium supplement, and as a short-term laxative. It is also used to improve symptoms of indigestion.",
         icon: "correct.jpg",
         button: "OK",
     });
