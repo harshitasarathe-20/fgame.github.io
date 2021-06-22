@@ -459,7 +459,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "Potassium chloride (KCl) is a water-soluble compound that is generally used to prevent  severe potassium loss (Hypokalemia) or severe potassium loss of various etiologies.whereas Mg aids in the production of energy and protein",
         icon: "correct.jpg",
         button: "OK",
     });
