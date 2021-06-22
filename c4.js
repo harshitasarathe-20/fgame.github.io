@@ -374,7 +374,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Ammonium chloride(NH4Cl), is also known as sal ammoniac.It is used in fertilizer, medecines, Lechlanche cells, food additives,cooling agent.",
+        text: "Ammonium chloride(NH4Cl), is also known as sal ammoniac.It is highly soluble in water, readily forming a slightly acidic solution.It is used in fertilizer, medecines, Lechlanche cells, food additives,cooling agent.",
         icon: "correct.jpg",
         button: "OK",
     });
