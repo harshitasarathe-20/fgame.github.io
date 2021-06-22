@@ -448,7 +448,7 @@ function decreaseValue4() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Barium sulfate (BaSO4) works by coating the inside of your esophagus, stomach, or intestines which allows them to be seen more clearly on a CT scan or other radiologic (x-ray) examination.It is used to help diagnose certain disorders of the esophagus, stomach, or intestines.",
+        text: "Barium sulfate (BaSO4) works by coating the inside of your esophagus, stomach, or intestines which allows them to be seen more clearly on a CT scan or other radiologic (x-ray) examination.It is used to help diagnose certain disorders of the esophagus, stomach, or intestines. Hydrochloric acid (HCl) is  used in the production of batteries, photoflash bulbs and fireworks. It's even used to process sugar and make gelatin.",
         icon: "correct.jpg",
         button: "OK",
     });
