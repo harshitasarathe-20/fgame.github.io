@@ -356,7 +356,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "Sulfur trioxide, is a colorless to white crystalline solid which will fume in air. It is used in the production of sulfuric acid and other chemicals, and explosives.",
         icon: "correct.jpg",
         button: "OK",
     });
