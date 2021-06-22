@@ -458,7 +458,7 @@ function decreaseValue4() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "Zinc Chloride (ZnCl2) is an ionic salt essential for the synthesis of cholesterol, protein, and fats. Zinc plays an important role in the proper functioning of the immune system",
         icon: "correct.jpg",
         button: "OK",
     });
