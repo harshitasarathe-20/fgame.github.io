@@ -374,7 +374,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "When Calcium Carbonate (CaCO3) is heated it decomposes into calcium oxide (CaO) and carbon dioxide (CO2). This process is employed in the manufacturing of quick lime, which is an important substance in many industries.",
         icon: "correct.jpg",
         button: "OK",
     });
