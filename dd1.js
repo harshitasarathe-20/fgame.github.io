@@ -448,7 +448,7 @@ function decreaseValue4() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "Barium sulfate (BaSO4) works by coating the inside of your esophagus, stomach, or intestines which allows them to be seen more clearly on a CT scan or other radiologic (x-ray) examination.It is used to help diagnose certain disorders of the esophagus, stomach, or intestines.",
         icon: "correct.jpg",
         button: "OK",
     });
