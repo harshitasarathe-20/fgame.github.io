@@ -368,7 +368,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "The decomposition of Potassium Chlorate (KClO3) was also used to provide the oxygen supply for limelights. It is used also as a pesticide.",
         icon: "correct.jpg",
         button: "OK",
     });
