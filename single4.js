@@ -459,7 +459,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "Hydrochloric acid(HCl) is an essential acid in the stomach. It helps destroy bacteria, as well as other harmful species whereas Bromine(Br2) is used in many areas such as agricultural chemicals, dyestuffs, insecticides, pharmaceuticals and chemical intermediates",
         icon: "correct.jpg",
         button: "OK",
     });
