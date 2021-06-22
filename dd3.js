@@ -463,7 +463,7 @@ function decreaseValue4() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "Sodium sulfate (Na2SO4) is used to dry organic liquids. As a filler in powdered home laundry detergents. Also a fining agent which removes small air bubbles from molten glass",
         icon: "correct.jpg",
         button: "OK",
     });
