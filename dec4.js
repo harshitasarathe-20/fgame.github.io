@@ -362,7 +362,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "Sodium chloride (NaCl) is the salt most responsible for the salinity of seawater and of the extracellular fluid of many multicellular organisms. In its edible form of table salt, it is commonly used as a condiment and food preservative.",
         icon: "correct.jpg",
         button: "OK",
     });
