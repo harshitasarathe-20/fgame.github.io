@@ -458,7 +458,7 @@ function decreaseValue4() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Zinc Chloride (ZnCl2) is an ionic salt essential for the synthesis of cholesterol, protein, and fats. Zinc plays an important role in the proper functioning of the immune system",
+        text: "Zinc Chloride (ZnCl2) is an ionic salt essential for the synthesis of cholesterol, protein, and fats. Zinc plays an important role in the proper functioning of the immune system. Hydrogen Sulfide (H2S) is used to create a variety of inorganic sulfides used to create pesticides, leather, dyes, and pharmaceuticals.",
         icon: "correct.jpg",
         button: "OK",
     });
