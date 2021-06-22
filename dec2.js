@@ -368,7 +368,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "Sodium oxide (Na2O) is used in the manufacture of commercial glasses based on the oxides of silicon and certain additives. It is an active flux and used to create glazes which give exciting colour responses.",
         icon: "correct.jpg",
         button: "OK",
     });
