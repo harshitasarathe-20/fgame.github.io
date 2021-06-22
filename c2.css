@@ -383,6 +383,10 @@
     border-bottom: 20px solid black;
     text-align: center;
     color:black;
+ 
+ .swal-modal .swal-text {
+    text-align: center;
+ }
     
   
    
