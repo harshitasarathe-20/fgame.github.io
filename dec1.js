@@ -362,7 +362,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "In many industries decomposition of Hydrogen Peroxide (H2O2) is used e.g.to produce sodium perborate and sodium percarbonate (bleaching agents in solid and liquid detergents). In textile industry hydrogen peroxide bleach and deodorize textiles, wood pulp, hair, fur, etc.",
         icon: "correct.jpg",
         button: "OK",
     });
