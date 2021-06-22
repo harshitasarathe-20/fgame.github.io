@@ -465,7 +465,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Magnesium Chloride is an inorganic salt which is crystalline and hygroscopic .It is used in fire extinguishers, in ceramics and in production of fireproofing wood whereas Aluminium(Al) is a good electrical conductor and is often used in electrical transmission lines.",
+        text: "Magnesium Chloride is an inorganic salt which is crystalline and hygroscopic. It is used in fire extinguishers, in ceramics and in production of fireproofing wood whereas Aluminium(Al) is a good electrical conductor and is often used in electrical transmission lines.",
         icon: "correct.jpg",
         button: "OK",
     });
