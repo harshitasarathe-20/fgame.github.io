@@ -344,7 +344,7 @@ function decreaseValue3() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "H2O (Water) plays sexy role sexy role v sexy role sexy role sexy role sexy role sexy role sexy rolesexy role!!!!!",
         icon: "correct.jpg",
         button: "OK",
     });
