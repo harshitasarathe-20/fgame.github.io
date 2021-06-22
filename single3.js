@@ -459,7 +459,7 @@ function submit() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "Sodium hydroxide(NaOH) ,which is also known as Caustic soda is used as disinfectant and also used for manufacture of medicines and fuel cell . Hydrogen(H2) is used as manufacture of ammonia in habers process and also in the hydrogenation of oils and fats .",
         icon: "correct.jpg",
         button: "OK",
     });
