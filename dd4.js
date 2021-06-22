@@ -458,7 +458,7 @@ function decreaseValue4() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Keep Going!",
+        text: "Calcium Chloride (CaCl2) is an excellent desiccant for removing dissolved water in liquids and is suitable for use in food packaging to increase dryness and prevent spoiling. Carbonic acid(H2CO3) is widely used in the production of soft drinks, artificially carbonated sparkling wines, and other bubbly beverages",
         icon: "correct.jpg",
         button: "OK",
     });
