@@ -344,7 +344,7 @@ function decreaseValue3() {
 function right() {
     swal({
         title: "Good Job!",
-        text: "Water(H2O) is a polar inorganic compound that is at room temperature a tasteless and odorless liquid.The bulk of the world’s water use is for agriculture, industry, and electricity.",
+        text: "Water(H2O) is a polar inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance.The bulk of the world’s water use is for agriculture, industry, and electricity.",
         icon: "correct.jpg",
         button: "OK",
     });
