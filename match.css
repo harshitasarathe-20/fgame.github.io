@@ -59,7 +59,7 @@ input {
   padding: 26px 8.999px; /* Some padding */
   margin: 10px;
   cursor: pointer; /* Pointer/hand icon */
-  width: 100%; /* Set a width if needed */
+  width: 103.5%; /* Set a width if needed */
   display: block; /* Make the buttons appear below each other */
   text-align: left;
 }
