@@ -1,274 +1,79 @@
-<!DOCTYPE HTML>
-
-<html>
-
+<!-- Created By CodingNepal - www.codingnepalweb.com  -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>ChemBal</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="index.css" />
-    
-
-
-
-<style>
-    body {
-        background-image: url('ch.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-
-    * {
-  box-sizing: border-box;
-}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color: #e5474b;
-  color: white ;
-  padding: 0px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-  margin: 3px;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-    float:none;
-  }
-}
-</style>
-
-
-
-
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
-
 <body>
+    <!-- start Quiz button -->
+    <div class="start_btn" style="margin-left: 13%;"><button>Start Quiz</button></div>
 
-
-    <!-- One -->
-    <section id="one">
-        <div class="inner">
-            <header>
-                <h2 style="color: white; font-family: 'Times New Roman', Times, serif; text-align: center; font-size: 40px;">CHEMICAL BALANCER </h2>
-            </header>
-            <p>
-                
-            </p>
-           <!--<ul class="actions">
-                <li><a href="#" class="button alt">Learn More</a></li>
-            </ul> -->
-        </div>
-    </section>
-    
-    <!-- Two -->
-    <section id="two">
-        <div class="inner">
-            <article>
-                <div class="content">
-                    <header>
-                        <h3 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 30px; color: black;">Basic Concepts</h3>
-                    </header>
-                    <div class="image fit">
-
-                        <a href="contentmob.html"><img src="https://i.ibb.co/jzW035J/basic.jpg" alt="basic" style="border: black 6px double; padding: 3px; background-color:silver;"></a><br>
-                        <ul class="actions">
-                            <li>
-                                <a href="contentmob.html"  class="button alt" style="border-color: chartreuse;
-    background: black !important;
-    margin-left: 120px !important;
-    border: black solid;
-    text-decoration-color: black;">Theory</a>
-                            </li>
-                        </ul>
-
-                      
-                    </div>
-                    <p></p>
-                </div>
-            </article>
-            <article class="alt">
-                <div class="content">
-                    <header>
-                        <h3 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 30px; color: black;">Play & Learn</h3>
-                    </header>
-                    <div class="image fit">
-                    <a href="gamecon.html"><img src="https://i.ibb.co/8x3smch/img.png" alt="img" style="border: black 6px double; padding: 3px; background-color:silver;"></a>
-                      
-                        <ul class="actions">
-                            <li>
-                                <a href="gamecon.html" class="button alt"
-                                    style="border-color: chartreuse;
-    background: black !important;
-    margin-left: 120px !important;
-    border: black solid;
-    text-decoration-color: black; margin-top: 35px;">Game</a>
-                            </li>
-                        </ul>
-
-                       <!-- <img src="img.png" alt=""  style="border: black 6px double; padding: 3px; background-color:silver;"/>-->
-                    </div>
-                    <p></p>
-                </div>
-            </article>
-
-
-
-             <article class="alt">
-                <div class="content">
-                    <header>
-                        <h3 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 30px; color: black;">Test Your Skills</h3>
-                    </header>
-                    <div class="image fit">
-                    <a href="contentquiz.html"><img src="https://i.ibb.co/j5XB2mm/qu.jpg" alt="qu"  style="border: black 6px double; padding: 3px; background-color:silver;"></a>
-                      
-                        <ul class="actions">
-                            <li>
-                                <a href="contentquiz.html" class="button alt"
-                                    style="border-color: chartreuse;
-    background: black !important;
-    margin-left: 120px !important;
-    border: black solid;
-    text-decoration-color: black; margin-top: 35px;">Play</a>
-                            </li>
-                        </ul>
-
-                       <!-- <img src="img.png" alt=""  style="border: black 6px double; padding: 3px; background-color:silver;"/>-->
-                    </div>
-                    <p></p>
-                </div>
-            </article>
-
-
-                
-
-
-
-
-
-        </div>
-    </section>
-    <!---"Three"--->
-    <section id="three" style="margin: 5px;">
-        <div id="container">
-       <h3>Contact Us</h3>
-        <form action="/action_page.php">
-            <div class="row">
-                <div class="col-25">
-                    <label for="fname"  >Name</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="fname" name="firstname" placeholder="Your name.." style="color: #ccc;">
-                </div>
-            </div>
+    <!-- Info Box -->
+    <div class="info_box" style="margin-left: 11%;">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
             
-            <div class="row">
-                <div class="col-25">
-                    <label for="lname">Email</label>
-                </div>
-                <div class="col-75">
-                    <input type="text" id="lname" name="lastname" placeholder="xyz@gmail.com" style="color: #ccc;">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                    <label for="subject" >Description</label>
-                </div>
-                <div class="col-75">
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; color: #ccc;" ></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <input type="submit" value="Submit" onclick="submit()">
-                
-            </div>
-        </form>
-            
-        </div>    
-            
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
 
+    <!-- Quiz Box -->
+    <div class="quiz_box" style="margin-left: 0px;">
+        <header>
+            <div class="title"></div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next </button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box" style="margin-left:12%;">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
         </div>
-        <div>
-           <p style="color: white;">
-            <img src="https://i.ibb.co/6w5GCv7/team.png" alt="team" style="border: double 2px black;" >
-            <br>Team SEHAS<br>
-            Developers:
-               <br>Sanidhya Jain &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp Harshita Sarathe
-               <br>Siddhant Vaishya &nbsp &nbsp&nbsp &nbsp&nbsp &nbsp Ekta Dange
-           </p>
+        <div class="complete_text">Quiz Completed!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
         </div>
-    </section>
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script>
-        function submit() {
-            console.log("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx!")
-            Swal.fire({
-                title: 'Custom width, padding, background.',
-                width: 600,
-                padding: '3em',
-                background: '#fff url(/images/trees.png)',
-                backdrop: ` rgba(0,0,123,0.4) url("/images/nyan-cat.gif") left top  no-repeat  `
-            })
-        }
-    </script>
-    
-    </body>
-    
-    </html>
+        <div class="buttons">
+            <button class="restart">Replay </button>
+            <button class="quit">Quit </button>
+        </div>
+    </div>
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="questionsupdated.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="script.js"></script>
+
+</body>
+</html>
