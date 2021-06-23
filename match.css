@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: linear-gradient(to right, #43c6ac, #f8ffae);
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row{
+    margin-top: 36px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 510px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h4{
+float: left;
+margin-left: -140px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row1{
+    margin-left: 152px;
+    margin-top: 15px;
+}
+
+input {
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+    border: double 1px black;
+
+}
+
+.btn-group button {
+   /* Green background */
+ background-color: #279;
+ border-radius: 7px;
+  border: 1px solid ; /* Green border */
+  color: white; /* White text */
+  padding: 26px 8.999px; /* Some padding */
+  margin: 10px;
+  cursor: pointer; /* Pointer/hand icon */
+  width: 100%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+  text-align: left;
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+ 
+}
+
+#submit {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: 21px;
+	background-color: #279;
+	color: #fff;
+	border: 2px;
+	border-radius: 3px;
+	padding: 9px;
+	cursor: pointer;
+    margin-top: 15px;
+    width: 85px;
+}
